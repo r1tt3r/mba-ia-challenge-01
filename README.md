@@ -9,7 +9,7 @@ Este projeto permite fazer perguntas em linguagem natural sobre um documento PDF
 
 ## Configuração
 
-Copie o arquivo de variáveis de ambiente e preencha com suas credenciais:
+Copie o arquivo de variáveis de ambiente e preencha com sua API Key da OpenAI:
 
 ```bash
 cp .env.example .env

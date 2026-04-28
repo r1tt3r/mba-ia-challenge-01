@@ -9,7 +9,7 @@ from langchain_postgres import PGVector
 
 load_dotenv()
 
-PDF_PATH = os.getenv("PDF_PATH")
+PDF_PATH = os.path.join(os.path.dirname(__file__), "..", os.getenv("PDF_PATH"))
 
 def ingest_pdf():
     print(f"Loading PDF: {PDF_PATH}")
